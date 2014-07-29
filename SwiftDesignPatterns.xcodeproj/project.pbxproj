@@ -11,7 +11,21 @@
 		2346E94A198726CB008B17E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2346E949198726CB008B17E3 /* ViewController.swift */; };
 		2346E94D198726CB008B17E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2346E94B198726CB008B17E3 /* Main.storyboard */; };
 		2346E94F198726CB008B17E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2346E94E198726CB008B17E3 /* Images.xcassets */; };
-		2346E95B198726CC008B17E3 /* SwiftDesignPatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2346E95A198726CC008B17E3 /* SwiftDesignPatternsTests.swift */; };
+		2346E9651987277F008B17E3 /* Guitar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2346E9641987277F008B17E3 /* Guitar.swift */; };
+		2346E9661987277F008B17E3 /* Guitar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2346E9641987277F008B17E3 /* Guitar.swift */; };
+		2346E9681987281D008B17E3 /* LesPaul.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2346E9671987281D008B17E3 /* LesPaul.swift */; };
+		2346E9691987281D008B17E3 /* LesPaul.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2346E9671987281D008B17E3 /* LesPaul.swift */; };
+		2346E96B1987285B008B17E3 /* Stratocaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2346E96A1987285B008B17E3 /* Stratocaster.swift */; };
+		2346E96C1987285B008B17E3 /* Stratocaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2346E96A1987285B008B17E3 /* Stratocaster.swift */; };
+		2346E96E19872901008B17E3 /* GuitarDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2346E96D19872901008B17E3 /* GuitarDecorator.swift */; };
+		2346E96F19872901008B17E3 /* GuitarDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2346E96D19872901008B17E3 /* GuitarDecorator.swift */; };
+		2346E97119872A3C008B17E3 /* Distortion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2346E97019872A3C008B17E3 /* Distortion.swift */; };
+		2346E97219872A3C008B17E3 /* Distortion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2346E97019872A3C008B17E3 /* Distortion.swift */; };
+		2346E97419872ADA008B17E3 /* Chorus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2346E97319872ADA008B17E3 /* Chorus.swift */; };
+		2346E97519872ADA008B17E3 /* Chorus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2346E97319872ADA008B17E3 /* Chorus.swift */; };
+		2346E97719872AF6008B17E3 /* Echo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2346E97619872AF6008B17E3 /* Echo.swift */; };
+		2346E97819872AF6008B17E3 /* Echo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2346E97619872AF6008B17E3 /* Echo.swift */; };
+		2368198A19872ED600CE40A6 /* DecoratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2368198919872ED600CE40A6 /* DecoratorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +38,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2346E99C19872BB3008B17E3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		2346E942198726CB008B17E3 /* SwiftDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2346E946198726CB008B17E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,7 +60,14 @@
 		2346E94E198726CB008B17E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2346E954198726CC008B17E3 /* SwiftDesignPatternsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDesignPatternsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2346E959198726CC008B17E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2346E95A198726CC008B17E3 /* SwiftDesignPatternsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDesignPatternsTests.swift; sourceTree = "<group>"; };
+		2346E9641987277F008B17E3 /* Guitar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Guitar.swift; sourceTree = "<group>"; };
+		2346E9671987281D008B17E3 /* LesPaul.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LesPaul.swift; sourceTree = "<group>"; };
+		2346E96A1987285B008B17E3 /* Stratocaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stratocaster.swift; sourceTree = "<group>"; };
+		2346E96D19872901008B17E3 /* GuitarDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuitarDecorator.swift; sourceTree = "<group>"; };
+		2346E97019872A3C008B17E3 /* Distortion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Distortion.swift; sourceTree = "<group>"; };
+		2346E97319872ADA008B17E3 /* Chorus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chorus.swift; sourceTree = "<group>"; };
+		2346E97619872AF6008B17E3 /* Echo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Echo.swift; sourceTree = "<group>"; };
+		2368198919872ED600CE40A6 /* DecoratorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecoratorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +114,7 @@
 				2346E94B198726CB008B17E3 /* Main.storyboard */,
 				2346E94E198726CB008B17E3 /* Images.xcassets */,
 				2346E945198726CB008B17E3 /* Supporting Files */,
+				2346E97919872B75008B17E3 /* Decorator */,
 			);
 			path = SwiftDesignPatterns;
 			sourceTree = "<group>";
@@ -95,7 +130,7 @@
 		2346E957198726CC008B17E3 /* SwiftDesignPatternsTests */ = {
 			isa = PBXGroup;
 			children = (
-				2346E95A198726CC008B17E3 /* SwiftDesignPatternsTests.swift */,
+				2368198919872ED600CE40A6 /* DecoratorTests.swift */,
 				2346E958198726CC008B17E3 /* Supporting Files */,
 			);
 			path = SwiftDesignPatternsTests;
@@ -109,6 +144,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2346E97919872B75008B17E3 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				2346E97A19872B86008B17E3 /* Decorators */,
+				2346E9641987277F008B17E3 /* Guitar.swift */,
+				2346E9671987281D008B17E3 /* LesPaul.swift */,
+				2346E96A1987285B008B17E3 /* Stratocaster.swift */,
+			);
+			name = Decorator;
+			sourceTree = "<group>";
+		};
+		2346E97A19872B86008B17E3 /* Decorators */ = {
+			isa = PBXGroup;
+			children = (
+				2346E96D19872901008B17E3 /* GuitarDecorator.swift */,
+				2346E97019872A3C008B17E3 /* Distortion.swift */,
+				2346E97319872ADA008B17E3 /* Chorus.swift */,
+				2346E97619872AF6008B17E3 /* Echo.swift */,
+			);
+			name = Decorators;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,6 +176,7 @@
 				2346E93E198726CB008B17E3 /* Sources */,
 				2346E93F198726CB008B17E3 /* Frameworks */,
 				2346E940198726CB008B17E3 /* Resources */,
+				2346E99C19872BB3008B17E3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -208,8 +266,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2346E9651987277F008B17E3 /* Guitar.swift in Sources */,
+				2346E97119872A3C008B17E3 /* Distortion.swift in Sources */,
 				2346E94A198726CB008B17E3 /* ViewController.swift in Sources */,
+				2346E97719872AF6008B17E3 /* Echo.swift in Sources */,
+				2346E97419872ADA008B17E3 /* Chorus.swift in Sources */,
+				2346E9681987281D008B17E3 /* LesPaul.swift in Sources */,
 				2346E948198726CB008B17E3 /* AppDelegate.swift in Sources */,
+				2346E96B1987285B008B17E3 /* Stratocaster.swift in Sources */,
+				2346E96E19872901008B17E3 /* GuitarDecorator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +282,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2346E95B198726CC008B17E3 /* SwiftDesignPatternsTests.swift in Sources */,
+				2346E96C1987285B008B17E3 /* Stratocaster.swift in Sources */,
+				2346E9691987281D008B17E3 /* LesPaul.swift in Sources */,
+				2346E96F19872901008B17E3 /* GuitarDecorator.swift in Sources */,
+				2346E97819872AF6008B17E3 /* Echo.swift in Sources */,
+				2346E97219872A3C008B17E3 /* Distortion.swift in Sources */,
+				2368198A19872ED600CE40A6 /* DecoratorTests.swift in Sources */,
+				2346E9661987277F008B17E3 /* Guitar.swift in Sources */,
+				2346E97519872ADA008B17E3 /* Chorus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +469,7 @@
 				2346E960198726CC008B17E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2346E961198726CC008B17E3 /* Build configuration list for PBXNativeTarget "SwiftDesignPatternsTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +478,7 @@
 				2346E963198726CC008B17E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
