@@ -8,14 +8,14 @@
 
 import Foundation
 
-class Echo {
-    var guitar:Guitar;
+class Echo : GuitarDecorator {
+    var guitar:Guitar
     
     init(fromGuitar guitar:Guitar) {
-        self.guitar = Guitar();
+        self.guitar = guitar
     }
     
-    func cost() -> Double {
-        return 159 + guitar.getCost();
+    override func getCost() -> Double {
+        return 159 + guitar.getCost()
     }
 }

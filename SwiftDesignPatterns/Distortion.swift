@@ -9,13 +9,13 @@
 import Foundation
 
 class Distortion : GuitarDecorator {
-    var guitar:Guitar;
+    var guitar:Guitar
     
     init(fromGuitar guitar:Guitar) {
-        self.guitar = guitar;
+        self.guitar = guitar
     }
     
-    func cost() -> Double {
-        return 59 + guitar.getCost();
+    override func getCost() -> Double {
+        return 59 + guitar.getCost()
     }
 }

@@ -10,6 +10,6 @@ import Foundation
 
 class LesPaul:Guitar {
     override func getCost() -> Double {
-        return 1699.99;
+        return 1699.99
     }
 }
