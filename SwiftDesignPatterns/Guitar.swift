@@ -10,6 +10,6 @@ import Foundation
 
 class Guitar {
     func getCost()->Double {
-        fatalError("Must override getCost");
+        fatalError("Must override getCost")
     }
 }

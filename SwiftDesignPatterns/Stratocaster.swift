@@ -10,6 +10,6 @@ import Foundation
 
 class Stratocaster:Guitar {
     override func getCost() -> Double {
-        return 799.99;
+        return 799.99
     }
 }

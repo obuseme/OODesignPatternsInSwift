@@ -8,14 +8,14 @@
 
 import Foundation
 
-class Chorus {
-    var guitar:Guitar;
+class Chorus : GuitarDecorator  {
+    var guitar:Guitar
     
     init(fromGuitar guitar:Guitar) {
-        self.guitar = Guitar();
+        self.guitar = guitar
     }
     
-    func cost() -> Double {
-        return 49 + guitar.getCost();
+    override func getCost() -> Double {
+        return 49 + guitar.getCost()
     }
 }
